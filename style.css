@@ -18,3 +18,46 @@
     gap: 8px;
 }
 
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-text-button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero-sub {
+    max-width: 400px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    height: 35px;
+    width: 100px;
+    border-radius: 25px;
+}
+
+.hero-image {
+    size: 300px;
+    display: flex;
+}
+
+img {
+    max-height: 400px;
+}
+
