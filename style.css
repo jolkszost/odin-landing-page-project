@@ -65,6 +65,7 @@ img {
 .info {
     display: flex;
     flex-direction: column;
+    padding: 35px;
 }
 
 .info-head {
@@ -97,4 +98,27 @@ img {
 .illustrationette {
     max-height: 100px;
 
+}
+
+.quotes {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;    
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    max-width: 600px;
+}
+
+.attribution {
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 20px;
+    margin-right: -400px;
 }
