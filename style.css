@@ -50,6 +50,7 @@
     height: 35px;
     width: 100px;
     border-radius: 25px;
+    margin-top: 20px;
 }
 
 .hero-image {
@@ -61,3 +62,39 @@ img {
     max-height: 400px;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-head {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+
+}
+
+.illustrations {
+    display: flex;
+    justify-content: center;
+
+}
+
+.illustration {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100px;
+    align-items: center;
+    font-size: 15px;
+    color: #1F2937;
+}
+
+.illustrationette {
+    max-height: 100px;
+
+}
